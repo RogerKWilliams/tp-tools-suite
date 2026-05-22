@@ -3,7 +3,7 @@
 Single-page static site introducing the TP Tool Suite: five browser-based Thinking Process tools
 for Theory of Constraints practitioners.
 
-**Live:** &lt;LANDING_PAGE_URL&gt; *(placeholder — fill in when Vercel project is configured)*
+**Live:** https://tp-tools-suite.vercel.app
 
 ## What it is
 
