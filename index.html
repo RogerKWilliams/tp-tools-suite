@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Browser-based tools for Theory of Constraints practitioners, covering Scheinkopf's Thinking Process methodology. Free, no signup, your work stays in your browser.">
+  <meta name="author" content="Roger Williams">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <title>TP Tool Suite — Theory of Constraints Thinking Tools</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Hero -->
+  <header class="hero">
+    <div class="container">
+      <h1>TP Tool Suite</h1>
+      <p class="hero-lead">Browser-based tools for Theory of Constraints practitioners, covering Scheinkopf's Thinking Process methodology.</p>
+      <p class="hero-sub">Free, no signup, your work stays in your browser.</p>
+    </div>
+  </header>
+
+  <!-- Workflow -->
+  <section id="workflow">
+    <div class="container">
+      <h2>The Thinking Process workflow</h2>
+      <p>These five tools implement the Thinking Process methodology developed by <a href="https://goldrattgroup.com">Eli Goldratt</a> and formalized by Lisa Scheinkopf in <a href="https://www.routledge.com/Thinking-for-a-Change-Putting-the-TOC-Thinking-Processes-to-Use/Scheinkopf/p/book/9781574441017"><em>Thinking for a Change</em></a>. They form a sequential diagnostic and planning chain: start with the chronic problems you can't seem to fix and work through the chain to a concrete, tested implementation plan.</p>
+      <p><em>Note: these tools are one practitioner's implementation of the methodology, not an official or canonical reference.</em></p>
+
+      <div class="workflow-flow">
+        <div class="workflow-step">
+          <span class="step-abbr">CRT</span>
+          <span class="step-name">Current Reality Tree</span>
+          <span class="step-verb">Map root causes</span>
+        </div>
+        <span class="workflow-arrow" aria-hidden="true">→</span>
+        <div class="workflow-step">
+          <span class="step-abbr">EC</span>
+          <span class="step-name">Evaporating Cloud</span>
+          <span class="step-verb">Resolve the core conflict</span>
+        </div>
+        <span class="workflow-arrow" aria-hidden="true">→</span>
+        <div class="workflow-step">
+          <span class="step-abbr">FRT</span>
+          <span class="step-name">Future Reality Tree</span>
+          <span class="step-verb">Test your solution</span>
+        </div>
+        <span class="workflow-arrow" aria-hidden="true">→</span>
+        <div class="workflow-step">
+          <span class="step-abbr">PRT</span>
+          <span class="step-name">Prerequisite Tree</span>
+          <span class="step-verb">Plan prerequisites</span>
+        </div>
+        <span class="workflow-arrow" aria-hidden="true">→</span>
+        <div class="workflow-step">
+          <span class="step-abbr">TT</span>
+          <span class="step-name">Transition Tree</span>
+          <span class="step-verb">Sequence actions</span>
+        </div>
+      </div>
+
+      <div class="workflow-detail">
+        <div class="workflow-detail-step">
+          <h3>CRT — Current Reality Tree</h3>
+          <p>Start here when you have multiple chronic problems and want to understand what's actually driving them. You list your Undesirable Effects (the symptoms that won't go away) and map them backward through sufficient-cause logic until you reach the root causes — the handful of things that, if fixed, would resolve most or all of the symptoms.</p>
+        </div>
+        <div class="workflow-detail-step">
+          <h3>EC — Evaporating Cloud</h3>
+          <p>The CRT often surfaces a core conflict: two conditions that both seem necessary but appear mutually incompatible. The Evaporating Cloud externalizes the conflict and challenges the assumptions beneath each side of it. When you find a flawed assumption, you have the logical basis for a solution that wasn't obvious before.</p>
+        </div>
+        <div class="workflow-detail-step">
+          <h3>FRT — Future Reality Tree</h3>
+          <p>Before committing resources to your solution, test it forward. The Future Reality Tree maps your proposed changes — called injections — into a hypothetical future to verify they eliminate the UDEs without creating new problems. If the future reality tree holds, the solution is logically sound.</p>
+        </div>
+        <div class="workflow-detail-step">
+          <h3>PRT — Prerequisite Tree</h3>
+          <p>A valid solution still needs a path to implementation. The Prerequisite Tree identifies the obstacles standing between today and each injection, and maps the intermediate objectives needed to overcome them. The result is a sequenced implementation roadmap built from logical necessity rather than guesswork.</p>
+        </div>
+        <div class="workflow-detail-step">
+          <h3>TT — Transition Tree</h3>
+          <p>The final step: translate prerequisites into action. The Transition Tree breaks each implementation step into a specific action, the rationale for taking it, and the expected outcome. Every step is explicit and its logic is traceable — so the people executing the plan understand not just what to do, but why each step follows from the last.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tools -->
+  <section id="tools" class="section-alt">
+    <div class="container">
+      <h2>The tools</h2>
+      <div class="tool-cards">
+
+        <div class="tool-card">
+          <div class="tool-header">
+            <span class="tool-abbr">CRT</span>
+            <span class="tool-fullname">Current Reality Tree Builder</span>
+          </div>
+          <p class="tool-desc">Map your Undesirable Effects back to root causes using sufficient-cause logic. Nodes, edges, and AND-junctions with configurable layout direction.</p>
+          <div class="tool-links">
+            <a href="&lt;CRT_TOOL_URL&gt;" class="btn btn-primary">Open tool</a>
+            <a href="&lt;CRT_GITHUB_URL&gt;" class="btn btn-secondary">Source</a>
+          </div>
+        </div>
+
+        <div class="tool-card">
+          <div class="tool-header">
+            <span class="tool-abbr">EC</span>
+            <span class="tool-fullname">Evaporating Cloud Builder</span>
+          </div>
+          <p class="tool-desc">Externalize and resolve core conflicts by surfacing the assumptions beneath each requirement. Structured conflict analysis with assumption injection.</p>
+          <div class="tool-links">
+            <a href="&lt;EC_TOOL_URL&gt;" class="btn btn-primary">Open tool</a>
+            <a href="&lt;EC_GITHUB_URL&gt;" class="btn btn-secondary">Source</a>
+          </div>
+        </div>
+
+        <div class="tool-card">
+          <div class="tool-header">
+            <span class="tool-abbr">FRT</span>
+            <span class="tool-fullname">Future Reality Tree Builder</span>
+          </div>
+          <p class="tool-desc">Test your solution forward. Map proposed injections into a hypothetical future to verify they eliminate UDEs without introducing new problems.</p>
+          <div class="tool-links">
+            <a href="&lt;FRT_TOOL_URL&gt;" class="btn btn-primary">Open tool</a>
+            <a href="&lt;FRT_GITHUB_URL&gt;" class="btn btn-secondary">Source</a>
+          </div>
+        </div>
+
+        <div class="tool-card">
+          <div class="tool-header">
+            <span class="tool-abbr">PRT</span>
+            <span class="tool-fullname">Prerequisite Tree Builder</span>
+          </div>
+          <p class="tool-desc">Identify the obstacles and intermediate objectives between today and each injection. Build a sequenced implementation roadmap grounded in logical necessity.</p>
+          <div class="tool-links">
+            <a href="&lt;PRT_TOOL_URL&gt;" class="btn btn-primary">Open tool</a>
+            <a href="&lt;PRT_GITHUB_URL&gt;" class="btn btn-secondary">Source</a>
+          </div>
+        </div>
+
+        <div class="tool-card">
+          <div class="tool-header">
+            <span class="tool-abbr">TT</span>
+            <span class="tool-fullname">Transition Tree Builder</span>
+          </div>
+          <p class="tool-desc">Translate prerequisites into concrete action steps, each with a rationale and an expected outcome. Explicit, traceable execution logic.</p>
+          <div class="tool-links">
+            <a href="&lt;TT_TOOL_URL&gt;" class="btn btn-primary">Open tool</a>
+            <a href="&lt;TT_GITHUB_URL&gt;" class="btn btn-secondary">Source</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CLR Facilitation Prompts -->
+  <section id="prompts">
+    <div class="container">
+      <h2>CLR facilitation prompts</h2>
+      <p>These prompts pair with the tools to enable AI-assisted logic review after construction. Paste into a Claude conversation along with your tool's JSON or Markdown export.</p>
+      <ul class="prompt-list">
+        <li><a href="prompts/crt-clr-facilitation.md" download>CRT CLR Facilitation Prompt</a></li>
+        <li><a href="prompts/ec-clr-facilitation.md" download>EC CLR Facilitation Prompt</a></li>
+        <li><a href="prompts/frt-clr-facilitation.md" download>FRT CLR Facilitation Prompt</a></li>
+        <li><a href="prompts/prt-clr-facilitation.md" download>PRT CLR Facilitation Prompt</a></li>
+      </ul>
+      <p class="prompt-note">TT does not have a CLR prompt — its quality checks are operational (handled by the tool itself) rather than logical.</p>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section-alt">
+    <div class="container">
+      <h2>About this project</h2>
+      <p>Personal educational project by Roger Williams. Not affiliated with Gartner. Shared as-is for educational use. The tools work entirely in your browser — your work is stored only in your browser's local storage, and nothing is sent to any server. Use the Export feature in each tool to back up your work to JSON files.</p>
+      <p>Issues and feature requests welcome via GitHub. No support timeline is promised — this is a volunteer effort.</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>
+        <a href="&lt;SUITE_GITHUB_URL&gt;">GitHub</a>
+        &nbsp;·&nbsp;
+        &copy; Roger Williams 2026
+        &nbsp;·&nbsp;
+        <a href="&lt;SUITE_GITHUB_URL&gt;/blob/main/LICENSE">MIT License</a>
+      </p>
+    </div>
+  </footer>
+
+</body>
+</html>
